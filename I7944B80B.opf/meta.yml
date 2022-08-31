@@ -1,51 +1,98 @@
 id: I7944B80B
+legacy_id: P003211
+ocr_import_info:
+  bdrc_scan_id: W1KG12048
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-29T14:55:48'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-29T15:06:23+00:00'
-last_modified: '2022-06-07T18:25:19.377521+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-31T03:15:08.964261+00:00'
+last_modified: 2022-08-31 11:18:35.862061
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1KG12048
-  title: སྙིང་ཐིག་ཡ་བཞི། ༼དར་ཐང་གློག་ཀླད་པར་མ།༽
-  author: ''
+  id: http://purl.bdrc.io/resource/W1KG12048
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    99C3:
-      image_group_id: I1KG12050
-      title: ''
-      total_pages: 1152
-      order: 1
-      base_file: 99C3.txt
-    0F84:
-      image_group_id: I1KG12051
-      title: ''
-      total_pages: 1684
-      order: 2
-      base_file: 0F84.txt
-    5D92:
-      image_group_id: I1KG12052
-      title: ''
-      total_pages: 1604
-      order: 3
-      base_file: 5D92.txt
-    '5234':
-      image_group_id: I1KG12053
-      title: ''
-      total_pages: 2666
-      order: 4
-      base_file: 5234.txt
-    BD66:
-      image_group_id: I1KG12054
-      title: ''
+  reproduction_of: http://purl.bdrc.io/resource/MW1KG12048
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: སྙིང་ཐིག་ཡ་བཞི། ༼དར་ཐང་གློག་ཀླད་པར་མ།༽
+  author: ཀློང་ཆེན་རབ་འབྱམས་པ་དྲི་མེད་འོད་ཟེར།
+statistics:
+  ocr_word_mean_confidence_index: 0.8755199405210877
+  ocr_word_median_confidence_index: 0.9599999785423279
+quality: null
+bases:
+  I1KG12054:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG12054
       total_pages: 1672
-      order: 5
-      base_file: BD66.txt
-statistics: {}
-quality: {}
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I1KG12054.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9599999785423279
+      ocr_word_mean_confidence_index: 0.8693403682965183
+    legacy_id: v005
+  I1KG12052:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG12052
+      total_pages: 1604
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I1KG12052.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9200000166893005
+      ocr_word_mean_confidence_index: 0.8432502716436456
+    legacy_id: v003
+  I1KG12051:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG12051
+      total_pages: 1684
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I1KG12051.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9599999785423279
+      ocr_word_mean_confidence_index: 0.8855249578048902
+    legacy_id: v002
+  I1KG12053:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG12053
+      total_pages: 2666
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I1KG12053.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.949999988079071
+      ocr_word_mean_confidence_index: 0.874528247447741
+    legacy_id: v004
+  I1KG12050:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG12050
+      total_pages: 1152
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1KG12050.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9599999785423279
+      ocr_word_mean_confidence_index: 0.906436636094732
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
